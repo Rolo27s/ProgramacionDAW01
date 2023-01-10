@@ -1,0 +1,30 @@
+Acceso al menu de cálculo de perímetros o Áreas:
+--------------------------------------------------
+
+Calcularemos una de estas opciones:
+-----------------------------------
+  0 - Perímetro
+  1 - Área
+  2 - Volúmen
+  3 - Salir
+
+Calcularemos una de estas opciones:
+-----------------------------------
+  0 - Cuadrado
+  1 - Rectángulo
+  2 - Triángulo
+  3 - Pentágono
+  4 - Círculo
+  5 - Salir
+
+
+Acceso al menu de cálculo de volúmenes:
+---------------------------------------
+Calcularemos una de estas opciones:
+  0 - Cubo
+  1 - Prisma
+  2 - Pirámide
+  3 - Cilíndro
+  4 - Esfera
+  5 - Salir
+

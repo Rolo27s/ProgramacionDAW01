@@ -1,0 +1,15 @@
+1010 Lina.Paola Casas.Nieto 22 Enfermería 3 2.8 Insuficiente
+1020 Pedro.Luis García.Mora 25 Administración 5 4.2 Sobresaliente
+1030 Ginna.Marcela Diaz.Bustos 24 Enfermería 6 4.6 Excelente
+1040 Yuri.Nubia Becerra.Duarte 21 Veterinaria 4 3.8 Aceptable
+1050 Julia.María Mora.Nuñe 23 Contaduría 6 4.1 Sobresaliente
+1060 Juan.Carlos Herrera.Plata 24 Medicina 5 4.1 Sobresaliente
+1070 Cesar.David Ferro.Zamora 24 Medicina 4 4.4 Sobresaliente
+1080 Andrea.Marcela Torres.López 22 Administración 5 4.7 Excelente
+1090 Jorge.Lucas Triana.Venegas 21 Veterinaria 4 3.5 Aceptable
+1100 María.Claudia Gómez.Mejia 22 Veterinaria 5 4.3 Sobresaliente
+1110 Ginna.Marcela Triana.Veloza 22 Veterinaria 4 4.7 Excelente
+1120 Vanesa.María Acosta.Zapata 25 Veterinaria 7 4.6 Excelente
+1130 Luis.Felipe Sánchez.Casas 27 Contaduría 8 2.9 Insuficiente
+1140 Marina.Pilar Rios.Rojas 22 Veterinaria 3 4.2 Sobresaliente
+1150 Julio.Antonio Vanegas.Duarte 24 Veterinaria 4 4 Sobresaliente

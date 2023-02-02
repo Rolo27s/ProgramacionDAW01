@@ -20,7 +20,7 @@ void escribir(){
     
     // ofstream: escribir en un fichero             + archivo.open ios::out
     // ifstream: abrir un fichero de lectura        + archivo.open ios::in
-    // fstream: añadir datos al final del fichero   + archivo.open ios::??
+    // fstream: aÃ±adir datos al final del fichero   + archivo.open ios::??
 
 }
 
@@ -28,12 +28,13 @@ void leer(){
     ifstream archivo;
     string nombreArchivo, texto;
 
-    cout << ("Introduce el nombre del archivo de texto a buscar (la extension del archivo de texto se añade automáticamente): ");
+    cout << ("Introduce el nombre del archivo de texto a buscar (la extension del archivo de texto se aÃ±ade automÃ¡ticamente): ");
     getline(cin >> std::ws,nombreArchivo);
     nombreArchivo += ".txt";
 
     archivo.open(nombreArchivo.c_str(), ios::in);
-
+    /* Recordatorio de getline â†’ getline(cin>>std::ws, "vble"); */
+    
     if(archivo.fail()){
         cout << "No se encontro el archivo" << endl;
     }else {

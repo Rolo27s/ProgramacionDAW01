@@ -1,7 +1,7 @@
 /* EJERCICIO 30. 
 Elaborar un programa que genere la clase Conductor (aplicando la ley de Ohm R =
 V / I) cuyos atributos son: nombre, voltaje, intensidad, resistencia, calcule el valor
-de la resistencia (Ohm) en función de la diferencia de voltaje (Voltios) y de la
+de la resistencia (Ohm) en funciÃ³n de la diferencia de voltaje (Voltios) y de la
 intensidad de corriente aplicada (Amperios) por el conductor para diez objetos
 cargados mediante un vector. */
 
@@ -10,7 +10,7 @@ cargados mediante un vector. */
 using namespace std;
 
 /* Funcionare de momento con 10 elementos */
-const int N = 2;
+const int N = 10;
 
 class Conductor {
     private:

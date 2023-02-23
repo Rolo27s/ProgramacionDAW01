@@ -72,7 +72,7 @@ int main()
     setlocale(LC_ALL, "");
     /* Mis variables en el main*/
     char repetir;
-    int opc, retBuscar;
+    int opc;
     /* ------------------- */
     do
     {

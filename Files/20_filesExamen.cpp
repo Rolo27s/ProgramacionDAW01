@@ -1,14 +1,14 @@
 /* ENUNCIADO - Ejercicio 27
-Generar un programa que tenga un men˙ repetitivo:
+Generar un programa que tenga un men√∫ repetitivo:
     1. Agregar alumno.
     2. Buscar alumno.
     3. Modificar alumno.
     4. Eliminar alumno.
     5. Ver todos los alumnos.
     6. Salir.
-Se podr· hacer cualquier opciÛn del men˙ en el archivo alumno.txt. 
+Se podr√° hacer cualquier opci√≥n del men√∫ en el archivo alumno.txt. 
 Los campos del archivo alumno son: 
-    cÛdigo, 
+    c√≥digo, 
     nombres, 
     apellido1,
     apellido2, 
@@ -25,7 +25,6 @@ Los campos del archivo alumno son:
 #include <string>
 #include <wchar.h>
 #include <locale>
-#include <cstdio>
 using namespace std;
 
 /* | -------------------------- | */
@@ -60,7 +59,7 @@ int buscar(void);
 /* Vble scope global usada por la funcion buscar */
 int buscaCod;
 bool codEncontrado;
-/* Los argumentos de estas ultimas 3 funciones ser· el return de la funcion buscar */
+/* Los argumentos de estas ultimas 3 funciones ser√° el return de la funcion buscar */
 void agregar(int codeAgregar);
 void modificar (int codeModificar);
 void eliminar (int codeEliminar);
@@ -227,7 +226,7 @@ si el codigo buscado se encontro o no se encontro. Dicha variable inicializara c
 por defecto en la funcion, he ira evolucionando a 1, o no, segun los sucesos */
 int buscar(void)
 {
-	/* Vble scope global. Es necesaria en ese ambito porque ser· usada por m·s funciones. Por defecto 0, no encontrado */
+	/* Vble scope global. Es necesaria en ese ambito porque ser√° usada por m√°s funciones. Por defecto 0, no encontrado */
 	codEncontrado = 0;
 	/* ----------------- */
 	
@@ -243,7 +242,7 @@ int buscar(void)
 	else
 	{
 		cout << "\nIngresa codigo a buscar [1-9999]: ";
-		/* buscaCod es una variable global. Es necesaria en ese ambito porque ser· usada por m·s funciones. */
+		/* buscaCod es una variable global. Es necesaria en ese ambito porque ser√° usada por m√°s funciones. */
 		cin >> buscaCod;
 		/* Controlo el codigo a buscar */
 		buscaCod = comprobarNum (buscaCod, 1, 9999);
@@ -329,7 +328,7 @@ void agregar(int codeAgregar)
 }
 
 /* funcion que modifica campos. Se pasara como parametro el return de la funcion buscar, es decir, el registro que se pretende modificar.
-Se har· uso de un archivo temporal "temporal.txt" para las modificaciones */
+Se har√° uso de un archivo temporal "temporal.txt" para las modificaciones */
 void modificar (int codeModificar)
 {
 	ifstream archivo;
@@ -470,7 +469,7 @@ void modificar (int codeModificar)
 }
 
 /* funcion que elimina el registro. Se pasara como parametro el return de la funcion buscar, es decir, el registro que se pretende eliminar.
-Se har· uso de un archivo temporal "temporal.txt" */
+Se har√° uso de un archivo temporal "temporal.txt" */
 void eliminar (int codeModificar)
 {
 	ifstream archivo;

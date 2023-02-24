@@ -1,0 +1,5 @@
+001 Hidrogeno H 1 1.00797
+002 Helio He 18 4.003
+011 Sodio Na 1 22.99
+026 Hierro Fe 3 55.845
+054 Xenon Xe 18 131.3

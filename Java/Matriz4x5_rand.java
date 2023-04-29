@@ -38,6 +38,16 @@ public class Matriz4x5_rand {
             System.out.println("");
         }
         
+        System.out.println("");
+        System.out.println("");
+        
+        //Usando un for each para visualizar
+        for(int fila[]: matrix) {
+            for(int z: fila) {
+                System.out.print(z + " ");
+            }
+            System.out.println("");
+        }
     }
     
 }

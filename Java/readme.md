@@ -1,1 +1,11 @@
-Directorio con contenido en lenguaje de programacion JAVA
+# Shortcuts útiles en netBeans
+* Ejecutar la aplicación: "Shift + F6"
+* Formatear el código: "Alt + Shift + F"
+* Auto-completar código: "Ctrl + Espacio"
+* Ir a la definición de una variable o método: "Ctrl + B"
+* Generar código (getter, setter, constructor, etc.): "Alt + Insert"
+* Comentar/descomentar línea de código: "Ctrl + Shift + C"
+* Reemplazar una cadena en todo el proyecto: "Ctrl + Shift + H"
+* Ir a la siguiente marca de navegación: "Ctrl + Shift + Comilla simple"
+* Refactorizar el código seleccionado: "Ctrl + Shift + R"
+* Abrir el navegador de archivos: "Ctrl + Shift + O"

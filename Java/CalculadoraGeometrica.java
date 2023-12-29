@@ -138,42 +138,43 @@ public class CalculadoraGeometrica {
     scanner.close();
 }
 
-public static void calcularVolumen() {
-    // Submenú para calcular volumen
-    Scanner scanner = new Scanner(System.in);
-    int opcion;
+    public static void calcularVolumen() {
+        // Submenú para calcular volumen
+        Scanner scanner = new Scanner(System.in);
+        int opcion;
 
-    do {
-        System.out.println("=== SUBMENÚ DE CÁLCULO DE VOLUMEN ===");
-        System.out.println("1. Cubo");
-        System.out.println("2. Esfera");
-        System.out.println("3. Volver al menú principal");
-        System.out.print("Ingresa una opción: ");
-        opcion = scanner.nextInt();
+        do {
+            System.out.println("=== SUBMENÚ DE CÁLCULO DE VOLUMEN ===");
+            System.out.println("1. Cubo");
+            System.out.println("2. Esfera");
+            System.out.println("3. Volver al menú principal");
+            System.out.print("Ingresa una opción: ");
+            opcion = scanner.nextInt();
 
-        switch (opcion) {
-            case 1:
-                // Cálculo del volumen de un cubo
-                System.out.print("Ingresa el lado del cubo: ");
-                double lado = scanner.nextDouble();
-                double volumen = lado * lado * lado;
-                System.out.println("El volumen del cubo es: " + volumen);
-                break;
-            case 2:
-                // Cálculo del volumen de una esfera
-                System.out.print("Ingresa el radio de la esfera: ");
-                double radio = scanner.nextDouble();
-                volumen = (4/3) * Math.PI * radio * radio * radio;
-                System.out.println("El volumen de la esfera es: " + volumen);
-                break;
-            case 3:
-                // Volver al menú principal
-                break;
-            default:
-                System.out.println("Opción inválida. Intenta de nuevo.");
-                break;
-        }
-    } while (opcion != 3);
+            switch (opcion) {
+                case 1:
+                    // Cálculo del volumen de un cubo
+                    System.out.print("Ingresa el lado del cubo: ");
+                    double lado = scanner.nextDouble();
+                    double volumen = lado * lado * lado;
+                    System.out.println("El volumen del cubo es: " + volumen);
+                    break;
+                case 2:
+                    // Cálculo del volumen de una esfera
+                    System.out.print("Ingresa el radio de la esfera: ");
+                    double radio = scanner.nextDouble();
+                    volumen = (4/3) * Math.PI * radio * radio * radio;
+                    System.out.println("El volumen de la esfera es: " + volumen);
+                    break;
+                case 3:
+                    // Volver al menú principal
+                    break;
+                default:
+                    System.out.println("Opción inválida. Intenta de nuevo.");
+                    break;
+            }
+        } while (opcion != 3);
 
-    scanner.close();
+        scanner.close();
+    }
 }

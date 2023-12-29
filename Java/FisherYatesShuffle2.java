@@ -5,7 +5,7 @@ y es ampliamente utilizado en la programación para realizar mezclas aleatorias 
 
 import java.util.Random;
 
-public class FisherYatesShuffle {
+public class FisherYatesShuffle2 {
     public static void main(String[] args) {
         int[] array = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}; // Array a mezclar
         shuffleArray(array); // Llamada al método shuffleArray para mezclar el arreglo
